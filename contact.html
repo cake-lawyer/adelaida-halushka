@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Зворотній зв'язок</title>
+  </head>
+  <body>
+    <header>
+      <a href="/">
+        <img src="./pictures/logo-wide.png" />
+      </a>
+
+      <nav>
+        <a href="./flavors.html">Смаки</a>
+        <a href="./story.html">Історія</a>
+        <a href="./contact.html" data-active="true">Контакти</a>
+      </nav>
+    </header>
+
+    <main class="contact-page">
+      <h1>Зворотній зв'язок</h1>
+
+      <form>
+        <label>
+          Ваше ім'я
+          <input
+            type="text"
+            minlength="2"
+            maxlength="32"
+            placeholder="Дастін Лукомський"
+          />
+        </label>
+        <label>
+          E-mail
+          <input
+            type="email"
+            placeholder="fesyukyaroslav@rcptosd5.ukr.education"
+          />
+        </label>
+        <label>
+          Номер телефону
+          <input type="tel" placeholder="+380 (93) 511 52 28" />
+        </label>
+        <label>
+          Суть звернення
+          <select>
+            <option>Покупка води</option>
+            <option>Постачання до дитячих колоній</option>
+            <option>SMM-відділ</option>
+          </select>
+        </label>
+        <label>
+          Текст повідомлення
+          <textarea></textarea>
+        </label>
+
+        <button type="submit">Надіслати</button>
+      </form>
+    </main>
+
+    <footer>
+      <div class="content">
+        <img src="pictures/logo.png" />
+        <div>
+          <span class="item">
+            <span class="material-symbols-rounded">place</span>
+            Україна, Донецька область, місто Макіївка, вулиця Джерельна 67
+          </span>
+          <span class="item">
+            <span class="material-symbols-rounded">alarm</span>
+            З 08:30 до 15:00, без вихідних
+          </span>
+          <a href="tel:+380935115228" class="item">
+            <span class="material-symbols-rounded">phone</span>
+            +380 (93) 511 52 28
+          </a>
+          <a href="mailto:contact@adelaida.ua" class="item">
+            <span class="material-symbols-rounded">mail</span>
+            contact@adelaidahalushka.ua
+          </a>
+        </div>
+        <span>«Аделаїда Галушка» 1939 — 2026. Всі права захищено.</span>
+      </div>
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23684.98657511773!2d29.88468988594985!3d46.25389544408264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c80d003ec36099%3A0xee7cecc94fa9ce61!2z0JzQsNC60LXQtdCy0YHQutC40Lkg0YDQvtC00L3QuNGH0L7Qug!5e0!3m2!1suk!2sua!4v1788976574482!5m2!1suk!2sua"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"
+        class="map"
+      ></iframe>
+    </footer>
+  </body>
+</html>
